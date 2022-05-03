@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bueno"
+    android:padding="16dp">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:text="Cadenas con mejor Aptitud a la cadena original"
+        android:textAlignment="center"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cadena Con mejor aptitud"
+        android:textColor="@color/black"
+        app:boxBackgroundMode="outline"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:counterEnabled="true"
+        app:helperText="Tamaño de poblacion:"
+        android:enabled="false"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_baseline_text_fields_24">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/cad1"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segunda Cadena Con mejor aptitud"
+        android:textColor="@color/black"
+        app:boxBackgroundMode="outline"
+        android:enabled="false"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="Tamaño de poblacion:"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_baseline_text_fields_24">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColor="@color/black"
+            android:id="@+id/cad2"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

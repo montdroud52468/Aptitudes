@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TexText</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="Texto">Agrega tu Texto</string>
+    <string name="Calcu">Calcular</string>
+    <string name="intento">intento</string>
+    <string name="string_intento" />
+    <string name="string_string_intento" />
+    <string name="hola">hola</string>
+    <string name="Next">Continuar con las aptitudes</string>
+    <string name="textsi">Tamaño del Texto</string>
+    <string name="po">Tamaño de la poblacion</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
